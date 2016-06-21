@@ -93,11 +93,18 @@
 
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) {
-/* iPhone 6 */ 
+@media all and (max-width: 500px)  {
+	body {
+		overflow: visible;
+		height: 1800px;
+		top: 0;
+	}
+	
+	#container-general {
+		top: 0;
+		height: 1500px;
+		width: 100%;
+	}
 
 }
 @media only screen 
